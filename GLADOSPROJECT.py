@@ -125,7 +125,7 @@ def command():
 def makeSomething(task):
     if 'open website' in task:
         saying(g1,cg)
-        url='https://www.youtube.com/watch?v=Q_n3n819dGI'
+        url='https://browser.yandex.ru/'
         webbrowser.open(url)
   ############################################
 
@@ -140,11 +140,11 @@ def makeSomething(task):
    ##############################################
     elif 'what is your favorite song' in task:
         #      talk("Alright master")
-        url2 = 'https://www.youtube.com/watch?v=qVHyl0P_P-M'
+        url2 = 'https://www.youtube.com/watch?v=c5w68Z-oX30'
         webbrowser.open(url2)
     elif 'song' in task:
         #      talk("Alright master")
-        url2 = 'https://www.youtube.com/watch?v=qVHyl0P_P-M'
+        url2 = 'https://www.youtube.com/watch?v=c5w68Z-oX30'
         webbrowser.open(url2)
 ####################################################
     elif 'can you sing for us' in task:
@@ -177,6 +177,7 @@ def makeSomething(task):
 
 while True:
     makeSomething(command())
+
 
 
 
