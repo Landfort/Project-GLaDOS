@@ -92,13 +92,13 @@ def song():
 def sabaton():
     ran = random.randint(1,3)
     if (ran == 1):
-        url = 'https://www.youtube.com/watch?v=zHl2EbEsE4A'
+        url = 'https://www.youtube.com/watch?v=jfKfPfyJRdk'
         webbrowser.open(url)
     elif (ran == 2):
-        url = 'https://www.youtube.com/watch?v=oVWEb-At8yc'
+        url = 'https://www.sovietwave.su/'
         webbrowser.open(url)
     elif (ran == 3):
-        url = 'https://www.youtube.com/watch?v=xP8G-LwWNn0'
+        url = 'https://www.youtube.com/@IfmoRu'
         webbrowser.open(url)
 
 
@@ -177,6 +177,7 @@ def makeSomething(task):
 
 while True:
     makeSomething(command())
+
 
 
 
